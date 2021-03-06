@@ -1,0 +1,30 @@
+@import './global.css';
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stopwatch-item,
+.stopwatch-lap {
+    margin: 1.5rem;
+    position: relative;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button {
+    padding: 2rem;
+    border-radius: 80px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    margin: 2rem;
+}
+
+.stopwatch-lap {
+    position: absolute;
+    top: 30%;
+    color: tomato;
+    font-size: 24px;
+    font-weight: lighter;
+}
